@@ -1,3 +1,54 @@
+Problem C: Aho-Corazick
+You are given two numbers 
+ and 
+.
+
+You can do one of the operations with 
+ in each turn.
+
+Multiply number by 2.
+
+Decrease the number by 1.
+
+You need to find the minimum number of operations, to make 
+ equal to 
+.
+
+Also print the every element after doing the operation.
+
+Input format
+In the first line given two integers 
+, 
+ where 
+.
+
+Output format
+Print one integer 
+ the minimum number of operations. In the second line print m integers, number after every operation.
+
+Examples
+Input
+5 9
+Output
+2
+10 9 
+Input
+4 8
+Output
+1
+8 
+Input
+4 4
+Output
+0
+
+Notes
+Be careful about overflow
+
+
+
+
+
 #include <iostream>
 #include <set>
 #include <queue>
