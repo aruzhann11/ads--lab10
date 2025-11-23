@@ -1,3 +1,59 @@
+Problem G: Fly Me to the Moon
+Giving up halfway is worse than never trying at all
+
+— Misato Katsuragi, Evangelion
+
+I think you’ve all heard about Keqing and her love for solving puzzles. But it’s time for you to find out about her friend Ganyu, who also loves to solve various problems. Unlike Keqing, Ganyu likes graph problems more. This time she has a directed graph of 
+ vertices and 
+ edges. She is very interested to know if she can turn her primordial graph into an acyclic graph. Moreover, she set herself an additional condition — she can delete only one edge from the graph. Unfortunately, Ganyu has a lot to do at work, so she didn’t have time to solve this problem. Therefore, she asked you to help her. Try your best for this problem because she believes in you!
+
+Input format
+The first line contains 
+ and 
+ — the number of vertices and the number of edges. Then 
+ lines follow. Each line contains two integers 
+ and 
+ denoting a directed edge going from vertex 
+ to vertex 
+. Each ordered pair 
+) is listed at most once. However, loops for the vertex itself in the graph are possible. 
+.
+
+Output format
+Print the answer. YES — if it is possible. NO — otherwise.
+
+Examples
+Input
+5 6
+1 3
+2 1
+3 5
+4 3
+5 4
+3 2
+Output
+NO
+Input
+2 2
+1 2
+2 1
+Output
+YES
+Input
+2 2
+1 1
+1 2
+Output
+YES
+Notes
+Acyclic graph - each edge directed from one vertex to another, such that following those directions will never form a closed loop.
+
+Good Luck & Have Fun!
+
+ 
+
+
+
 #include <iostream>
 #include <vector>
 #include <unordered_set>
