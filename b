@@ -1,3 +1,40 @@
+Problem B: Path
+In an undirected graph, you need to find the shortest path between two vertices.
+
+Input format
+In the first line given one number n, number of vertices (
+). In 
+ lines given, and 
+ elements in each line ‘0’ or ‘1’ where 0 indicates the absence of an edge, 1 indicates the presence of an edge. In the next line two numbers are given: start and end of a path.
+
+Output format
+Print the length of the shortest path. If the path does not exist, print a single number 
+.
+
+Examples
+Input
+5
+0 1 0 0 1
+1 0 1 0 0
+0 1 0 0 0
+0 0 0 0 0
+1 0 0 0 0
+3 5
+Output
+3
+Input
+5
+0 1 1 1 1
+1 0 0 0 0
+1 0 0 0 0
+1 0 0 0 0
+1 0 0 0 0
+3 5
+Output
+2
+
+
+
 #include <iostream>
 #include <vector>
 #include <queue>
