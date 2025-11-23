@@ -1,3 +1,49 @@
+Problem D: Try Again
+You are given undirected graph with 
+ vertices, 
+ edges, and 
+ queries. Initially all vertices are black. There are two types of queries.
+
+1.  
+ - Change the color of vertex 
+ to red.
+
+2.  
+ - Output the distance to the nearest red vertex to 
+, or -1 is there is no such vertex.
+
+Input format
+First line contains three integers 
+. Next 
+ lines contain information about edges. Next 
+ lines contain queries as described in the statement.
+
+Output format
+Output answer to queries of type 
+.
+
+Examples
+Input
+5 4 7
+1 2
+2 3
+3 4
+4 5
+2 1
+1 1
+2 1
+2 2
+2 5
+1 3
+2 5
+Output
+-1
+0
+1
+4
+2
+
+
 #include <iostream>
 #include <vector>
 #include <queue>
